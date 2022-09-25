@@ -1,0 +1,12 @@
+.backgSet {
+    padding: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 27px 13px #F2F2F2;
+    box-shadow: 0px 1px 27px 13px #F2F2F2;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: #224442 !important;
+    color: white !important;
+}
