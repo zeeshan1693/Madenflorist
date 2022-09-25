@@ -16,7 +16,7 @@
                         <a href="#" class="btn btn-maden">.xls</a>
                     </div><br>
                     <div class="panel-body backgSet">
-                        <p>Page content</p>
+                        <p>Categories Page Content</p>
                     </div>
                 </div>
             </div>

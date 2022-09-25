@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+<nav class="navbar navbar-expand topbar-bg topbar mb-4 static-top shadow">
     
     <!-- Sidebar Toggle (Topbar) -->
     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -56,7 +56,7 @@
                 <img class="img-profile rounded-circle" src="{{ asset('assets/img/undraw_profile.svg') }}">
             </a>
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="index.php?page=remoteConfig&amp;req=index&amp;">
+                <a class="dropdown-item" href="#">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Remote Config
                 </a>
