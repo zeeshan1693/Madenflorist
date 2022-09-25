@@ -6,11 +6,23 @@
     border-radius: 5px;
 }
 
-.active{
+.main-active{
     background-color: #224442 !important;
     color: white !important;
+}
+.active{
+    background-color: #fcfaf4 !important;
+    color: #3a3b45 !important;
 }
 
 .topbar-bg{
     background-color: #eef0f0 !important;
+}
+
+.side-menu-fw{
+    font-weight: 700;
+}
+
+.page-header{
+    font-weight: 700;
 }
