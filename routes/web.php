@@ -14,17 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function (){
-    Route::get('/dashboard', 'HomeController@index')->name('dashboard');
+    Route::get('/home', 'HomeController@index')->name('home');
 
     Route::prefix('product-setup')->group(function () {
         Route::get('/categories', function(){
-            return view('pages.categories');
+            return view('madenflorist.dashboard.index');
         })->name('categories');
     });
 });
