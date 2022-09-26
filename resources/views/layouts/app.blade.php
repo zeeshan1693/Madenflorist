@@ -24,6 +24,11 @@
 
     <link href="{{ asset('assets/vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
     <style>.btn-maden {background-color: #224442; color: white;} </style>
+
+    <!-- CSS Dynamic -->
+    @if (trim($__env->yieldContent('page-styles')))    
+        @yield('page-styles')
+    @endif
 </head>
 <body id="page-top">
     <div id="wrapper">
@@ -57,6 +62,11 @@
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('assets/js/sb-admin-2.min.js') }}"></script>
+
+    <!-- Scripts Dynamic-->
+    @if (trim($__env->yieldContent('page-script')))
+        @yield('page-script')
+    @endif
 
     {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">

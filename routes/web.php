@@ -24,7 +24,7 @@ Route::group(['middleware' => 'auth'], function (){
 
     Route::prefix('product-setup')->group(function () {
         Route::get('/categories', function(){
-            return view('madenflorist.dashboard.index');
+            return view('madenflorist.categories.index');
         })->name('categories');
     });
 });

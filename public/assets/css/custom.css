@@ -30,3 +30,12 @@
 .mt-15{
     margin-top: 15px;
 }
+
+table > thead > tr {
+    background-color: #eef0f0 !important;
+    color: #3a3b45 !important;
+}
+
+.custom-text-info{
+    color: #224442 !important;
+}
