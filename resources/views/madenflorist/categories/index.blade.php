@@ -13,7 +13,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-body backgSet">
-                        <table id="example" class="table table-bordered" style="width:100%">
+                        <table id="example" class="table table-hover" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Id</th>
