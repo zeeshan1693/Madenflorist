@@ -6,6 +6,13 @@
     </button>
 
     <ul class="navbar-nav ml-auto">
+        <div class="input-group">
+            <input class="form-control rounded-pill py-2 pr-5 mr-1 bg-transparent mt-15" type="search" value="search" id="example-search-input1">
+            <span class="input-group-append">
+                <div class="input-group-text border-0 bg-transparent ml-n5"><i class="fa fa-search"></i></div>
+            </span>
+        </div>
+
         <!-- Nav Item - Alerts -->
         <li class="nav-item dropdown no-arrow mx-1">
             <a class="nav-link" href="" id="alertsDropdown" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
