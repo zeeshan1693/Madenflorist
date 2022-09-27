@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use ModenFlorist\CategoryController;
-
+use ModenFlorist\ColorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +25,7 @@ Route::group(['middleware' => 'auth'], function (){
 
     Route::prefix('product-setup')->group(function () {
         Route::resource('categories', CategoryController::class);
+        Route::resource('colors', ColorController::class);
     });
 });
 
