@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use ModenFlorist\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,8 @@ Route::group(['middleware' => 'auth'], function (){
     Route::get('/home', 'HomeController@index')->name('home');
 
     Route::prefix('product-setup')->group(function () {
+        Route::resource('category', CategoryController::class);
+        
         Route::get('/categories', function(){
             return view('madenflorist.categories.index');
         })->name('categories');

@@ -4,8 +4,13 @@
 <div class="container-fluid">
     <div id="page-wrapper">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-4">
                 <h1 class="page-header">Categories</h1>
+            </div>
+            <div class="col-lg-4 offset-lg-4">
+                <div class="text-right">
+                    <a href="{{ route('category.create') }}"><button type="button" class="btn btn-maden">Add New Category</button></a>
+                </div>
             </div>
         </div>
         
@@ -26,10 +31,10 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Tiger Nixon</td>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
+                                    <td>01</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches11" checked>
@@ -38,16 +43,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Garrett Winters</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
-                                    <td>63</td>
+                                    <td>02</td>
+                                    <td>Flower Bouquet</td>
+                                    <td>Flower Bouquet</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches10">
@@ -56,16 +61,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Ashton Cox</td>
-                                    <td>Junior Technical Author</td>
-                                    <td>San Francisco</td>
-                                    <td>66</td>
+                                    <td>03</td>
+                                    <td>Flower Boxes</td>
+                                    <td>Flower Boxes</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches1" checked>
@@ -74,16 +79,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Cedric Kelly</td>
-                                    <td>Senior Javascript Developer</td>
-                                    <td>Edinburgh</td>
-                                    <td>22</td>
+                                    <td>04</td>
+                                    <td>New Arrivals</td>
+                                    <td>New Arrivals</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches2" checked>
@@ -92,16 +97,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Airi Satou</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
-                                    <td>33</td>
+                                    <td>05</td>
+                                    <td>Test Category</td>
+                                    <td>Test Category</td>
+                                    <td>Yes</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches3" checked>
@@ -110,16 +115,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Brielle Williamson</td>
-                                    <td>Integration Specialist</td>
-                                    <td>New York</td>
-                                    <td>61</td>
+                                    <td>06</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches4" checked>
@@ -128,16 +133,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Herrod Chandler</td>
-                                    <td>Sales Assistant</td>
-                                    <td>San Francisco</td>
-                                    <td>59</td>
+                                    <td>07</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches5" checked>
@@ -146,16 +151,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Rhona Davidson</td>
-                                    <td>Integration Specialist</td>
-                                    <td>Tokyo</td>
-                                    <td>55</td>
+                                    <td>08</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches6" checked>
@@ -164,16 +169,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Colleen Hurst</td>
-                                    <td>Javascript Developer</td>
-                                    <td>San Francisco</td>
-                                    <td>39</td>
+                                    <td>09</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches7" checked>
@@ -182,16 +187,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Sonya Frost</td>
-                                    <td>Software Engineer</td>
-                                    <td>Edinburgh</td>
-                                    <td>23</td>
+                                    <td>10</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches8" checked>
@@ -200,16 +205,16 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Jena Gaines</td>
-                                    <td>Office Manager</td>
-                                    <td>London</td>
-                                    <td>30</td>
+                                    <td>11</td>
+                                    <td>Flower Vases</td>
+                                    <td>Flower Vases</td>
+                                    <td>No</td>
                                     <td>
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitches9" checked>
@@ -218,8 +223,8 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button>
-                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button>
+                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
                                 </tr>
