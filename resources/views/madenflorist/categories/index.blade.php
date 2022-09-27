@@ -9,7 +9,7 @@
             </div>
             <div class="col-lg-4 offset-lg-4">
                 <div class="text-right">
-                    <a href="{{ route('category.create') }}"><button type="button" class="btn btn-maden">Add New Category</button></a>
+                    <a href="{{ route('categories.create') }}"><button type="button" class="btn btn-maden">Add New Category</button></a>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -61,7 +61,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -79,7 +79,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -97,7 +97,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -115,7 +115,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -133,7 +133,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -151,7 +151,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -169,7 +169,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -187,7 +187,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -205,7 +205,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>
@@ -223,7 +223,7 @@
                                     </td>
                                     <td>
                                         <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                            <a href="{{ route('category.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
+                                            <a href="{{ route('categories.edit',1) }}"><button type="button" class="btn btn-outline-dark"><i class="fa fa-pencil-alt custom-text-info" aria-hidden="true"></i></button></a>&nbsp;
                                             <a href="#"><button type="button" class="btn btn-outline-dark"><i class="fa fa-trash-alt text-danger" aria-hidden="true"></i></button></a>
                                         </div>
                                     </td>

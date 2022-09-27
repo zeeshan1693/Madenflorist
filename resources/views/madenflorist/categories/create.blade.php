@@ -37,7 +37,7 @@
                         </div>
 
                         <div class="card-footer text-right" dir="ltr">
-                            <a href="{{ route('category.index') }}" class="btn btn btn-outline-dark">Cancel</a>
+                            <a href="{{ route('categories.index') }}" class="btn btn btn-outline-dark">Cancel</a>
                             <button type="Submit" class="btn btn-maden">Add Category</button>
                         </div>
                     </div>

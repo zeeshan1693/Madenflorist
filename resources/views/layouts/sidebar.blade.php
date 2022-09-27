@@ -23,9 +23,9 @@
             </svg>
             <span class="side-menu-fw">Product Setup</span>
         </a>
-        <div id="collapse1" class="collapse {{ Request::segment(2) =='category' ? 'show' : '' }}" aria-labelledby="heading1" data-parent="#accordionSidebar">
+        <div id="collapse1" class="collapse {{ Request::segment(2) =='categories' ? 'show' : '' }}" aria-labelledby="heading1" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item side-menu-fw {{ Request::segment(2) =='category' ? 'active': '' }}" href="{{ route('category.index') }}">Categories</a>
+                <a class="collapse-item side-menu-fw {{ Request::segment(2) =='categories' ? 'active': '' }}" href="{{ route('categories.index') }}">Categories</a>
                 <a class="collapse-item side-menu-fw" href="#">Colors</a>
                 <a class="collapse-item side-menu-fw" href="#">Types</a>
                 <a class="collapse-item side-menu-fw" href="#">Template Slots</a>
