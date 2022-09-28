@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use MadenFlorist\CategoryController;
 use MadenFlorist\ColorController;
+use MadenFlorist\CategoryController;
+use Illuminate\Support\Facades\Route;
+use MadenFlorist\TypeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +27,7 @@ Route::group(['middleware' => 'auth'], function (){
     Route::prefix('product-setup')->group(function () {
         Route::resource('categories', CategoryController::class);
         Route::resource('colors', ColorController::class);
+        Route::resource('types', TypeController::class);
     });
 });
 
