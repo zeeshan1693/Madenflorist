@@ -57,7 +57,7 @@ class ColorController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('madenflorist.colors.edit');
     }
 
     /**
