@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use ModenFlorist\CategoryController;
-use ModenFlorist\ColorController;
+use MadenFlorist\CategoryController;
+use MadenFlorist\ColorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes

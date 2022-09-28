@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\ModenFlorist;
+namespace App\Http\Controllers\MadenFlorist;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class ColorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return view('madenflorist.categories.index');
+        return view('madenflorist.colors.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('madenflorist.categories.create');
+        return view('madenflorist.colors.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        return view('madenflorist.categories.edit');
+        return view('madenflorist.colors.edit');
     }
 
     /**
